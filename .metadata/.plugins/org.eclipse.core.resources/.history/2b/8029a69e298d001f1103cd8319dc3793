@@ -1,0 +1,5 @@
+package com.coding.example.book;
+
+public class BookDAO {
+
+}

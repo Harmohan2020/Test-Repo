@@ -1,0 +1,23 @@
+package com.coding.example;
+
+interface Calculator{
+	//void switchOn();
+	void sum(int num);
+}
+
+public class CalculatorImpl{
+	
+	public static void main(String[] args) {
+
+		//Calculator calculator = () -> System.out.println("Calculator is switched ON");
+		//calculator.switchOn();
+		
+		Calculator calculator = (int sum) -> {
+			System.out.println("Sum : "+sum);
+		};
+		calculator.sum(234);
+	}
+
+	
+
+}
